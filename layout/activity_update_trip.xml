@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/box"
+    android:layout_height="wrap_content">
+
+
+    <EditText
+        android:id="@+id/trip_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="100dp"
+        android:backgroundTint="#C9F49A"
+        android:textColor="#000000"
+        android:fontFamily="@font/cinzel_decorative"
+        android:hint="Trip name"
+        android:textSize="30sp"
+        android:textStyle="bold"></EditText>
+
+
+    <EditText
+        android:id="@+id/trip_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textAlignment="center"
+        android:layout_marginStart="125sp"
+        android:hint="duration"
+        android:fontFamily="@font/cinzel_decorative"
+        android:textStyle="bold"
+        android:backgroundTint="#C9F49A"
+        android:textColor="#000000"
+        android:textSize="20dp">
+    </EditText>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/trip_flightName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#B7F1F8"
+            android:textColor="#99EDE5"
+            android:fontFamily="@font/cinzel_decorative"
+            android:hint="Flight Name"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"></EditText>
+
+        <EditText
+            android:id="@+id/flight_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="250dp"
+            android:backgroundTint="#B7F1F8"
+            android:fontFamily="@font/cinzel_decorative"
+            android:hint="price"
+            android:textAlignment="center"
+            android:textColor="#99EDE5"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/tripDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:backgroundTint="#B7F1F8"
+        android:textColor="#99EDE5"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="270dp"
+        android:fontFamily="@font/cinzel_decorative"
+        android:hint="date"
+        android:textSize="20sp"
+        android:textStyle="bold"></EditText>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/trip_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#B7F1F8"
+            android:textColor="#99EDE5"
+            android:fontFamily="@font/cinzel_decorative"
+            android:hint="start"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trip_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="250dp"
+            android:backgroundTint="#B7F1F8"
+            android:textColor="#99EDE5"
+            android:fontFamily="@font/cinzel_decorative"
+            android:hint="end"
+            android:textSize="20dp"
+            android:textStyle="bold"></EditText>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/trip_hotelName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="0dp"
+            android:backgroundTint="#F4E5A0"
+            android:textColor="#FFECAD"
+            android:fontFamily="@font/cinzel_decorative"
+            android:hint="Hotel Name"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"></EditText>
+
+        <EditText
+            android:id="@+id/hotel_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="270dp"
+            android:backgroundTint="#F4E5A0"
+            android:textColor="#FFECAD"
+            android:fontFamily="@font/cinzel_decorative"
+            android:hint="hotel type"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold"></EditText>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_weight="100">
+
+        <EditText
+            android:id="@+id/hotel_price"
+            android:layout_width="wrap_content"
+            android:textAlignment="center"
+            android:backgroundTint="#F4E5A0"
+            android:textColor="#FFECAD"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:fontFamily="@font/cinzel_decorative"
+            android:hint="price"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/hotel_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textAlignment="center"
+            android:layout_marginStart="230dp"
+            android:backgroundTint="#F4E5A0"
+            android:textColor="#FFECAD"
+            android:fontFamily="@font/cinzel_decorative"
+            android:hint="Location"
+            android:textSize="20sp"
+            android:textStyle="bold"></EditText>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="100">
+
+        <EditText
+            android:id="@+id/hotel_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:backgroundTint="#F4E5A0"
+            android:fontFamily="@font/cinzel_decorative"
+            android:hint="start"
+            android:textAlignment="center"
+            android:textColor="#FFECAD"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/hotel_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="230dp"
+            android:fontFamily="@font/cinzel_decorative"
+            android:hint="end"
+            android:textAlignment="center"
+            android:backgroundTint="#F4E5A0"
+            android:textColor="#FFECAD"
+            android:textSize="20dp"
+            android:textStyle="bold"></EditText>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="100dp"
+        android:text="Update"
+        android:backgroundTint="@color/darkPink"
+        android:layout_marginStart="150dp"
+        android:layout_height="50dp" />
+
+
+
+</LinearLayout>

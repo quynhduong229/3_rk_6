@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/gradientsky">
+
+
+
+        <TextView
+            android:id="@+id/tv_pg_postTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Review"
+            android:background="#1A385A"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            ></TextView>
+
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/iv_pg_image"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:src="@color/white"/>-->
+
+    <EditText
+        android:id="@+id/et_pg_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:hint="Title"></EditText>
+
+        <EditText
+            android:id="@+id/et_pg_description"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Description"></EditText>
+
+
+        <Button
+            android:id="@+id/btn_pg_addImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="add image"
+            android:backgroundTint="#769ABE"
+            android:visibility="gone"
+            ></Button>
+
+
+    <Button
+        android:id="@+id/btn_pg_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#309930"
+        android:text="Post"></Button>
+
+    <Button
+        android:id="@+id/btn_pg_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E8AA9B"
+        android:text="Cancel"></Button>
+
+    </LinearLayout>
+
+    <!--//Atomic Steel Blue – #1A385A-->
+    <!--    Seagull Blue – #769ABE-->
+    <!--    Tomato Orange – #E46F44-->
+    <!--    Pink Shell – #E8AA9B-->
+    <!--    Plum Violet – #DCD5DC-->

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/gradientsky"
+    >
+    tools:context=".activity.LoginPageActivity">
+    <TextView
+        android:id="@+id/tv_LoginPage_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Airplanned"
+        android:textAlignment="center"
+        android:textColor="#1A385A"
+        android:textSize="60sp" />
+
+
+    <ImageView
+        android:id="@+id/tbBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/planewing" />
+
+
+
+    <EditText
+        android:id="@+id/et_LoginScreen_Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="email"
+        android:minHeight="48dp"
+        android:textAlignment="textStart" />
+
+
+    <EditText
+        android:id="@+id/et_LoginScreen_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/btn_LoginScreen_Login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="60sp"
+        android:text="Login"
+        android:fontFamily="sans-serif-smallcaps"
+        android:backgroundTint="#E8AA9B"
+        />
+
+    <Button
+        android:id="@+id/btn_LoginScreen_Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:text="Register"
+        android:fontFamily="sans-serif-smallcaps"
+        android:backgroundTint="#1A385A"
+        />
+
+</LinearLayout>

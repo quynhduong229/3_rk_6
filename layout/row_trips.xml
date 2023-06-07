@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:id="@+id/eachRow"
+    android:background="@drawable/trip_shape"
+    android:backgroundTint="#B40B0104"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/editButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="250dp"
+            android:background="@drawable/ic_edit"></ImageView>
+    <ImageView
+        android:id="@+id/deleteButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="290dp"
+        android:background="@drawable/ic_delete"></ImageView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/planner"
+            android:backgroundTint="#66FF05">
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/trip_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="100dp"
+            android:fontFamily="@font/cinzel_decorative"
+            android:text="Trip name"
+            android:textColor="#66FF05"
+            android:textSize="40sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/trip_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="30sp"
+        android:text="duration"
+        android:fontFamily="@font/cinzel_decorative"
+        android:textStyle="bold"
+        android:textColor="#66FF05"
+        android:textSize="20dp">
+    </TextView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/teal_200"
+            android:background="@drawable/airplane"></RelativeLayout>
+
+        <TextView
+            android:id="@+id/trip_flightName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="100dp"
+            android:fontFamily="@font/cinzel_decorative"
+            android:text="Flight Name"
+            android:textColor="#05FDE5"
+            android:textSize="35sp"
+            android:textStyle="bold"></TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="100">
+
+        <TextView
+            android:id="@+id/flight_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:fontFamily="@font/cinzel_decorative"
+            android:text="price"
+            android:textColor="@color/teal_200"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tripDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="120dp"
+            android:text="date"
+            android:fontFamily="@font/cinzel_decorative"
+            android:textColor="@color/teal_200"
+            android:textSize="30sp"
+            android:textStyle="bold"></TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="100">
+
+        <TextView
+            android:id="@+id/trip_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:text="start"
+            android:fontFamily="@font/cinzel_decorative"
+            android:textColor="@color/teal_200"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/trip_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="180dp"
+            android:text="end"
+            android:fontFamily="@font/cinzel_decorative"
+            android:textColor="@color/teal_200"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+    </RelativeLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/resort"
+            android:backgroundTint="#FFD035"></RelativeLayout>
+
+        <TextView
+            android:id="@+id/trip_hotelName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="100dp"
+            android:fontFamily="@font/cinzel_decorative"
+            android:text="Hotel Name"
+            android:textColor="#FFD035"
+            android:textSize="35sp"
+            android:textStyle="bold"></TextView>
+
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/hotel_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="250dp"
+        android:text="hotel type"
+        android:fontFamily="@font/cinzel_decorative"
+        android:textColor="#FFD035"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="100">
+
+        <TextView
+            android:id="@+id/hotel_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:fontFamily="@font/cinzel_decorative"
+            android:text="price"
+            android:textColor="#FFD035"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/hotel_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="120dp"
+            android:fontFamily="@font/cinzel_decorative"
+            android:text="Location"
+            android:textColor="#FFD035"
+            android:textSize="25sp"
+            android:textStyle="bold"></TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="100">
+
+        <TextView
+            android:id="@+id/hotel_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:fontFamily="@font/cinzel_decorative"
+            android:text="start"
+            android:textColor="#FFD035"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/hotel_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="180dp"
+            android:fontFamily="@font/cinzel_decorative"
+            android:text="end"
+            android:textColor="#FFD035"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

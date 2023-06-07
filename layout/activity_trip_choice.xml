@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/tripaddingpage"
+    android:weightSum="50"
+    tools:context=".activity.TripChoiceActivity">
+
+    <ImageView
+        android:id="@+id/gobackList"
+        android:src="@drawable/ic_arrowback"
+        android:layout_width="50dp"
+        android:layout_height="40dp" >
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/designTrip"
+        android:text="Design your own Trip"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:layout_weight="10"
+        android:fontFamily="@font/leckerli_one"
+        android:textColor="#BA8A1212"
+        android:layout_marginTop="50dp"
+        android:padding="40dp"
+        android:textAlignment="center"
+        android:background="@drawable/trip_bg"
+        android:backgroundTint="@color/PinkyPie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:id="@+id/autoTrip"
+        android:text="Create trip from flight and hotel"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:layout_weight="10"
+        android:fontFamily="@font/leckerli_one"
+        android:textColor="@color/purple_500"
+
+        android:textAlignment="center"
+        android:background="@drawable/trip_bg"
+        android:padding="40dp"
+        android:backgroundTint="@color/purple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+</LinearLayout>

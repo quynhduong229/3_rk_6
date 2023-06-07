@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/gradientsky">
+
+
+    tools:context="activity.RegisterPageActivity">
+
+    <TextView
+        android:id="@+id/tv_postPage_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Airplanned"
+        android:textColor="#1A385A"
+        android:textSize="60sp"
+        android:textAlignment="center"
+        />
+
+
+    <EditText
+        android:id="@+id/til_registerPage_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="text"
+        android:textSize="28sp"
+        />
+
+    <EditText
+        android:id="@+id/til_registerPage_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/til_registerPage_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="text"
+        android:textSize="28sp" />
+
+
+    <EditText
+        android:id="@+id/til_registerPage_confirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Account Type"
+        android:inputType="text"
+        android:textSize="28sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_rp_response"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:text="Account Type: "
+        />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_above="@+id/til_registerPage_confirmPassword"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/rp_at_adio1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Basic" />
+
+        <RadioButton
+            android:id="@+id/rp_at_radio2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Manager" />
+
+        <RadioButton
+            android:id="@+id/rp_at_radio3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Poster" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_registerPage_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Register"
+        android:textSize="25dp"
+        android:backgroundTint="#1A385A"
+        />
+
+    <Button
+        android:id="@+id/et_registerPage_returnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Return to Login"
+        android:backgroundTint="#E8AA9B"
+
+        />
+
+</LinearLayout>

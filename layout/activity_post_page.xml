@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientsky"
+    android:foregroundTint="#FFFFFF"
+    android:orientation="vertical"
+
+    tools:context=".activity.PostPageActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <ImageView
+            android:id="@+id/iv_postPage_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/pg_add_bck_circle"
+            android:scaleType="fitCenter"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+
+        <TextView
+            android:id="@+id/tv_postPage_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Airplanned"
+            android:textAlignment="center"
+            android:textColor="#1A385A"
+            android:textSize="50dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/iv_postPage_refresh"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/pg_add_bck_circle"
+            app:srcCompat="@android:drawable/ic_popup_sync"
+
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_pg_postTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Community Reviews"
+        android:textAlignment="center"
+        android:background="#1A385A"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        ></TextView>
+
+
+    <ListView
+        android:id="@+id/tv_postPage_postDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="384dp"></ListView>
+
+    <ImageView
+        android:id="@+id/iv_postPage_add"
+        android:layout_width="83dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@android:drawable/presence_online"
+        app:srcCompat="@android:drawable/ic_menu_add"
+
+        />
+
+</LinearLayout>

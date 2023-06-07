@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/box"
+    android:backgroundTint="#EDCF88"
+    android:padding="10dp"
+    android:weightSum="100">
+
+
+    <TextView
+        android:id="@+id/api_hotelname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="66.6"
+        android:textAlignment="center"
+        android:textColor="#031025"
+        android:textSize="25dp"
+        android:text="Hotel name"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D5AC4D"
+        android:background="@drawable/hotelbox">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="$"
+                android:textSize="20dp"
+                android:layout_marginStart="120dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:id="@+id/api_hotelprice"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="Price"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <TextView
+            android:gravity="center"
+            android:text="From"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/api_hotelFrom" />
+        <TextView
+            android:gravity="center"
+            android:text="To"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/api_hotelTo" />
+        <TextView
+            android:gravity="center"
+            android:text="Date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/api_hotelLocation" />
+
+    </LinearLayout>
+
+</LinearLayout>

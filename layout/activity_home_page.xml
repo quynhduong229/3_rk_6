@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradientsky"
+    tools:context=".activity.HomePageActivity"
+    >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:orientation="horizontal"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="5dp"
+
+      >
+
+
+    <ImageView
+        android:id="@+id/iv_homepage_archive"
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        app:srcCompat="@drawable/archive"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_postPage_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Airplanned"
+        android:textAlignment="center"
+        android:textColor="#1A385A"
+        android:layout_marginLeft="10dp"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        />
+
+
+    <ImageView
+        android:id="@+id/iv_homePage_profile"
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/user"
+        android:layout_gravity="center"
+        />
+  </LinearLayout>
+  jane@somemail.com
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#AAD8FF"
+      android:orientation="vertical"
+      android:layout_gravity="center"
+      android:layout_margin="10dp"
+      >
+
+    <TextView
+        android:id="@+id/tv_homePage_RecentTrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:text="How are you feeling today?" />
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_margin="12dp"
+        >
+
+
+      <ImageView
+          android:id="@+id/iv_homepage_happy"
+          android:layout_width="80dp"
+          android:layout_height="82dp"
+          app:srcCompat="@drawable/happyface" />
+
+      <ImageView
+          android:id="@+id/iv_homepage_neutral"
+          android:layout_width="80dp"
+          android:layout_height="82dp"
+          android:layout_gravity="center"
+
+          app:srcCompat="@drawable/neutral"
+          />
+
+      <ImageView
+          android:id="@+id/iv_homepage_sad"
+          android:layout_width="80dp"
+          android:layout_height="82dp"
+          android:layout_gravity="center"
+
+          app:srcCompat="@drawable/sadface"
+          />
+
+    </LinearLayout>
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_gravity="center"
+      android:layout_margin="10dp"
+      android:background="#AAD8FF"
+      >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <ImageView
+          android:id="@+id/iv_homePage_ReccomendedImage"
+          android:layout_width="match_parent"
+          android:layout_height="100dp"
+          android:layout_marginTop="15dp"
+          app:srcCompat="@drawable/italy" />
+
+      <TextView
+          android:id="@+id/tv_homePage_ReccomendedTrip"
+          android:layout_width="match_parent"
+          android:layout_height="30dp"
+          android:text=""
+          android:layout_gravity="center"
+          android:textAlignment="center"
+          android:textSize="15dp"
+          />
+
+
+      <Button
+          android:id="@+id/btn_homePage_recPage"
+          android:layout_width="200dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_gravity="center"
+          android:layout_height="60dp"
+          android:backgroundTint="#1A385A"
+          android:text = "Next country you should visit"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btn_homePage_chat"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="CHAT"
+        android:backgroundTint="#4CAF50"
+        android:layout_gravity="center"
+        android:layout_marginLeft="35dp"
+        app:srcCompat="@drawable/chat"
+        android:background="@drawable/pg_add_bck_circle"
+
+        ></ImageView>
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:background="#E8AA9B"
+      android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/iv_homePage_flight"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/airplane" />
+
+    <ImageView
+        android:id="@+id/iv_homePage_hotel"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/resort" />
+
+    <ImageView
+        android:id="@+id/iv_homePage_planner"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/planner" />
+
+
+    <ImageView
+        android:id="@+id/iv_homePage_explore"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/worldwide" />
+  </LinearLayout>
+
+</LinearLayout>

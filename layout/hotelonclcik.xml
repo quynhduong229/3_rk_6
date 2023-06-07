@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#EFE2C5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Are you sure to save this hotel on your trip?"
+        android:textColor="#754406"
+        android:textSize="30dp"
+        android:fontFamily="@font/leckerli_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <Button
+        android:id="@+id/sureButtonHotel"
+        android:text="Choose"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#6C5A30"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="140dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+
+</LinearLayout>

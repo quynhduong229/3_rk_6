@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/pinklight"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="Your account will be permantly deleted?"
+        android:textColor="#E63333"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/yesdelete"
+            android:text="CONFiRM"
+            android:textSize="20dp"
+            android:backgroundTint="@color/darkPink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
